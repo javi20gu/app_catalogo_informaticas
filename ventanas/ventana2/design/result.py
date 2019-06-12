@@ -1,0 +1,157 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'Ui_Result.ui',
+# licensing of 'Ui_Result.ui' applies.
+#
+# Created: Mon Jun 10 22:25:46 2019
+#      by: pyside2-uic  running on PySide2 5.12.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PySide2 import QtCore, QtGui, QtWidgets
+
+class Ui_Frame_Result(object):
+    def setupUi(self, Frame_Result):
+        Frame_Result.setObjectName("Frame_Result")
+        Frame_Result.resize(922, 603)
+        self.verticalLayout = QtWidgets.QVBoxLayout(Frame_Result)
+        self.verticalLayout.setContentsMargins(-1, -1, -1, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.titulo = QtWidgets.QLabel(Frame_Result)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Maximum)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.titulo.sizePolicy().hasHeightForWidth())
+        self.titulo.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Segoe UI Semibold")
+        font.setPointSize(34)
+        font.setWeight(75)
+        font.setBold(True)
+        self.titulo.setFont(font)
+        self.titulo.setText("")
+        self.titulo.setObjectName("titulo")
+        self.verticalLayout.addWidget(self.titulo)
+        self.label = QtWidgets.QLabel(Frame_Result)
+        font = QtGui.QFont()
+        font.setFamily("Arial Narrow")
+        font.setPointSize(11)
+        self.label.setFont(font)
+        self.label.setStyleSheet("color: rgb(94, 98, 117)")
+        self.label.setText("")
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        spacerItem = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
+        self.verticalLayout.addItem(spacerItem)
+        self.descripcion = QtWidgets.QLabel(Frame_Result)
+        font = QtGui.QFont()
+        font.setFamily("Segoe UI Semilight")
+        font.setPointSize(12)
+        self.descripcion.setFont(font)
+        self.descripcion.setStyleSheet("color: rgb(68, 65, 83);")
+        self.descripcion.setText("")
+        self.descripcion.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.descripcion.setWordWrap(True)
+        self.descripcion.setObjectName("descripcion")
+        self.verticalLayout.addWidget(self.descripcion)
+        self.scrollArea = QtWidgets.QScrollArea(Frame_Result)
+        self.scrollArea.setStyleSheet("#scrollArea {\n"
+"    border: 1px solid rgb(220, 220, 220);\n"
+"}\n"
+"\n"
+"")
+        self.scrollArea.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAsNeeded)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents.setEnabled(True)
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 898, 345))
+        self.scrollAreaWidgetContents.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
+        self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents)
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.imagen1 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.imagen1.sizePolicy().hasHeightForWidth())
+        self.imagen1.setSizePolicy(sizePolicy)
+        self.imagen1.setStyleSheet("background-color: rgb(250, 250, 250);\n"
+"padding:5%;")
+        self.imagen1.setText("")
+        self.imagen1.setScaledContents(False)
+        self.imagen1.setAlignment(QtCore.Qt.AlignCenter)
+        self.imagen1.setWordWrap(False)
+        self.imagen1.setObjectName("imagen1")
+        self.verticalLayout_2.addWidget(self.imagen1)
+        self.imagen3 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.imagen3.sizePolicy().hasHeightForWidth())
+        self.imagen3.setSizePolicy(sizePolicy)
+        self.imagen3.setStyleSheet("background-color: rgb(250, 250, 250);\n"
+"padding:5%;")
+        self.imagen3.setText("")
+        self.imagen3.setScaledContents(False)
+        self.imagen3.setAlignment(QtCore.Qt.AlignCenter)
+        self.imagen3.setWordWrap(False)
+        self.imagen3.setObjectName("imagen3")
+        self.verticalLayout_2.addWidget(self.imagen3)
+        self.imagen4 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.imagen4.sizePolicy().hasHeightForWidth())
+        self.imagen4.setSizePolicy(sizePolicy)
+        self.imagen4.setStyleSheet("background-color: rgb(250, 250, 250);\n"
+"padding:5%;")
+        self.imagen4.setText("")
+        self.imagen4.setScaledContents(False)
+        self.imagen4.setAlignment(QtCore.Qt.AlignCenter)
+        self.imagen4.setWordWrap(False)
+        self.imagen4.setObjectName("imagen4")
+        self.verticalLayout_2.addWidget(self.imagen4)
+        self.imagen2 = QtWidgets.QLabel(self.scrollAreaWidgetContents)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.imagen2.sizePolicy().hasHeightForWidth())
+        self.imagen2.setSizePolicy(sizePolicy)
+        self.imagen2.setStyleSheet("background-color: rgb(250, 250, 250);\n"
+"padding:5%;")
+        self.imagen2.setText("")
+        self.imagen2.setAlignment(QtCore.Qt.AlignCenter)
+        self.imagen2.setObjectName("imagen2")
+        self.verticalLayout_2.addWidget(self.imagen2)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents)
+        self.verticalLayout.addWidget(self.scrollArea)
+        spacerItem1 = QtWidgets.QSpacerItem(20, 10, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Maximum)
+        self.verticalLayout.addItem(spacerItem1)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        spacerItem2 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem2)
+        self.botonIr = QtWidgets.QPushButton(Frame_Result)
+        font = QtGui.QFont()
+        font.setFamily("Segoe UI Semibold")
+        font.setPointSize(10)
+        self.botonIr.setFont(font)
+        self.botonIr.setCursor(QtCore.Qt.PointingHandCursor)
+        self.botonIr.setStyleSheet("background-color: rgb(251, 255, 255);\n"
+"color: rgb(57, 105, 148);\n"
+"border: 1px solid rgb(76, 123, 185);\n"
+"border-radius: 4px;\n"
+"padding: 10px 28px")
+        self.botonIr.setObjectName("botonIr")
+        self.horizontalLayout.addWidget(self.botonIr)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+
+        self.retranslateUi(Frame_Result)
+        QtCore.QMetaObject.connectSlotsByName(Frame_Result)
+
+    def retranslateUi(self, Frame_Result):
+        Frame_Result.setWindowTitle(QtWidgets.QApplication.translate("Frame_Result", "Frame", None, -1))
+        self.botonIr.setText(QtWidgets.QApplication.translate("Frame_Result", "Descargar", None, -1))
+
