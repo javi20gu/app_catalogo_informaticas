@@ -12,7 +12,7 @@ class Login:
     def connect(self, username: str, password: str) -> bool:
         self.__user = username
         self.__password = password
-        check = self.__user.strip() == 'javier' and self.__password.strip() == 'brianda'
+        check = self.__user.strip() == 'prueba' and self.__password.strip() == 'prueba'
         if check:
             self.__login = True
         return self.__login
