@@ -3,7 +3,7 @@ Aplicación de Escritorio, hecho en Python, trata de implementar el uso de la li
 
 ### Requerimientos:
   - Python >= 3.7
-  - PySide2 > 5.13.0
+  - PySide2 > 5.12.3
 
 ### Posibles fallos en versiones anteriores
  
