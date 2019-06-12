@@ -9,7 +9,7 @@ Aplicación de Escritorio, hecho en Python, trata de implementar el uso de la li
 
 ### Posibles fallos en versiones anteriores
 ## Snapshot
-![Ventana de Login](ventanas\asserts\github_img\pantalla-login.png)
-![Ventana de Registro](ventanas\asserts\github_img\pantalla-register.png)
-![Ventana de Inicio](ventanas\asserts\github_img\pantalla-inicio.png)
-![Ventana de Inicio en una Categoria](ventanas\asserts\github_img\pantalla-inicio-categoria.png)
+![Ventana de Login](https://github.com/javi20gu/app_catalogo_informaticas/blob/master/ventanas/asserts/github_img/pantalla-login.png)
+![Ventana de Registro](https://github.com/javi20gu/app_catalogo_informaticas/blob/master/ventanas/asserts/github_img/pantalla-register.png)
+![Ventana de Inicio](https://github.com/javi20gu/app_catalogo_informaticas/blob/master/ventanas/asserts/github_img/pantalla-inicio.png)
+![Ventana de Inicio en una Categoria](https://github.com/javi20gu/app_catalogo_informaticas/blob/master/ventanas/asserts/github_img/pantalla-inicio-categoria.png)
